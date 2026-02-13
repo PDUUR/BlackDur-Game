@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>BlackDur - Premium Block Puzzle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game-title">BlackDur</div>
+
+<div id="game-container">
+    <div id="combo-msg"></div>
+    <div class="header-stats">
+        <div class="stat-box">
+            <span class="stat-label">SKOR</span>
+            <span id="score" class="stat-value">0</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">STATUS</span>
+            <span id="combo" class="stat-value" style="color: #f472b6; font-size: 14px;">READY</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">BEST</span>
+            <span id="high-score" class="stat-value" style="color: #10b981;">0</span>
+        </div>
+    </div>
+
+    <div class="btn-group">
+        <button id="btn-restart">RESTART</button>
+        <button id="btn-undo">UNDO</button>
+        <button id="btn-sound">MUSIC ON</button>
+    </div>
+
+    <canvas id="gameCanvas"></canvas>
+</div>
+
+<div id="overlay">
+    <div class="mock-text">Game Over<br>Wkwkwk!</div>
+    <p id="final-score" style="font-size: 1.2rem; color: #94a3b8; margin-bottom: 2rem;">Skor: 0</p>
+    <button class="btn-play" id="btn-again">COBA LAGI</button>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>

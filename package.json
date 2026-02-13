@@ -1,0 +1,12 @@
+{
+    "name": "blackdur-game",
+    "version": "1.0.0",
+    "description": "Premium Block Puzzle Game",
+    "main": "index.html",
+    "scripts": {
+        "dev": "npx serve ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
